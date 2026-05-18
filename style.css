@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body{
+    height: 100%;
+    background-color:#2C2631;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.page{
+    height: 150vh;
+    background-color:#2C2631;
+    width: 100%;
+}
+
+.bg-img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    clip-path: ellipse(90% 100% at 50% 0%);
+}
+
+.main-content{
+    height: 150vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    overflow: hidden;
+}
+
+.nav-dets img{
+    height: 10vh;
+    margin-top: 2vh;
+}
+
+.nav-dets a{
+    text-decoration: none;
+    color: white;
+    padding-left: 1vw;
+}
+
+.social-icon i{
+    color: white;
+    font-size: 2vw;
+}
+
+.dis{
+    height: fit-content;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dis h4{
+    font-size: 1.5vw;
+}
+
+.dis h1{
+      font-family: "Amarante", serif;
+      font-size: 8vw;
+}
+
+.dis:nth-child(2){
+    margin-top: 14%;
+}
+
+.dis:nth-child(2) h4{
+    margin-top: -3vh;
+    margin-left: -35%;
+}
+
+.dis:nth-child(4) h4{
+    margin-top: -3vh;
+    margin-left: 35%;
+}
+
+.monkey{
+    height: 60%;
+    object-fit: cover;
+    position: absolute;
+    top: 6.7%;
+    left: 15%;
+}
+
+.btn{
+    height: 6vh;
+    width: 12vw;
+    background-color: #F9DA8F;
+    border: none;
+    font-size: 1.2vw;
+    font-weight: 600;
+    z-index: 9;
+    border-radius: 0.3vw;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    object-fit: cover;
+}
+
+.main-content h2{
+    position: absolute;
+    color: white;
+    font-family: "Amarante", serif;
+    font-size: 4vw;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,0);
+}
+
+.bar{
+    height: 70vh;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.p1{
+    width: 20%;
+    position: absolute;
+    top: 84%;
+    left: 40%;
+    transform: translate(-50%,0);
+    color: white;
+}
+
+.p2{
+     width: 20%;
+    position: absolute;
+    top: 84%;
+    left: 66%;
+    transform: translate(-50%,0);
+    color: white;
+}
